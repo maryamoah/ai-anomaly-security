@@ -18,9 +18,9 @@ to support human decision-making.
 
 Security and crime-related datasets often exhibit:
 
--   High heterogeneity across sources\
--   Noise and missing or partial observations\
--   Severe class imbalance\
+-   High heterogeneity across sources
+-   Noise and missing or partial observations
+-   Severe class imbalance
 -   Potential adversarial manipulation
 
 Traditional rule-based monitoring struggles in such environments. This
@@ -82,9 +82,9 @@ environments.
 
 This prototype reflects conditions common in operational environments:
 
--   Heterogeneous telemetry streams\
--   Uncertain or missing ground truth\
--   Adversarial behavioural patterns\
+-   Heterogeneous telemetry streams
+-   Uncertain or missing ground truth
+-   Adversarial behavioural patterns
 -   Need for interpretable decision support
 
 Future work may explore richer feature engineering, hybrid human-AI
@@ -100,13 +100,13 @@ telemetry. Several important research considerations remain:
 
 -   **Ground truth uncertainty:** In real security environments, anomaly
     labels are often incomplete or unavailable. Unsupervised methods
-    must therefore be interpreted cautiously.\
+    must therefore be interpreted cautiously.
 -   **Adversarial adaptation:** Attackers may evolve behaviour in
     response to detection mechanisms, requiring continuous model
-    monitoring and retraining.\
+    monitoring and retraining.
 -   **Feature sensitivity:** Isolation Forest performance depends on
     feature representation; future work should explore richer
-    behavioural features and temporal context.\
+    behavioural features and temporal context.
 -   **Human-in-the-loop analysis:** Anomaly scores are intended to
     support analyst reasoning rather than replace expert judgement.
 
@@ -117,8 +117,8 @@ detection with domain-informed behavioural modelling.
 
 ## 👤 Author
 
-**Mary Amoah**\
-Cybersecurity & AI Security Research Enthusiast\
+**Mary Amoah**
+Cybersecurity & AI Security Research Enthusiast
 GitHub: https://github.com/maryamoah
 
 ------------------------------------------------------------------------
